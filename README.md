@@ -31,10 +31,9 @@ This project demonstrates the application of machine learning models in healthca
 
 Two machine learning models, Logistic Regression and Decision Trees, were implemented and compared. 
 
-Initially, the Decision Tree model showed an impressive performance of 97.5% accuracy on the training data, but it faced overfitting when tested. 
-To address this, I fine-tuned the model by binning one of the variables, which resulted in a more realistic accuracy of 87.5%. The model also exhibited consistent results with good train and test accuracy, as well as solid cross-validation performance.
+Initially, the Decision Tree model achieved 97.5% accuracy, but signs of overfitting were evident (memorizin the data - 100% accuracy on training set). To improve generalization, I fine-tuned the model by binning one of the variables, which reduced overfitting and resulted in a more realistic accuracy of 85.5%.
 
-Logistic Regression also performed well, achieving an accuracy of 85%. 
+Logistic Regression also performed well, achieving an accuracy of 87.5%. 
 
 Both models showed promising results. However, there is still room for improvement in refining the models, such as testing with a larger dataset and exploring other algorithms.
 
